@@ -2,67 +2,99 @@
 Redesigned the Google Dinosaur Game using SCAMPER principles to create Detective Dash, an original game developed in Python.
 <img width="1362" height="698" alt="image" src="https://github.com/user-attachments/assets/1cae81e5-33e5-488c-83fe-ab79da38497a" />
 
+Detective Dash is a three-level game developed in Python using Pygame. The project started with the Google Dinosaur Game as the original concept, and we used the SCAMPER design process to transform it into a detective and mystery-solving game.
 
-Detective Dash is a three-level game developed in Python using Pygame. The project started with the Google Dinosaur Game as the original concept, and we used the SCAMPER design process to turn it into a new detective-themed game.
+The game consists of three levels, with each level representing a different murder mystery. As the player moves through a level, they avoid obstacles and collect clues that provide information about the crime.
 
-Instead of running endlessly and avoiding obstacles, the player takes on the role of a detective and progresses through three different levels. Each level has different gameplay mechanics, and clues are collected throughout the game to help solve the mystery at the end.
+At the end of each level, the player uses the clues they collected to solve the mystery by selecting the correct:
+
+- Suspect
+- Location
+- Murder weapon
+
+The player only moves on to the next level if all three selections are correct. If the mystery is solved correctly, the next case is unlocked with a new setting, clues, and gameplay mechanics.
+
+## How the Game Works
+
+Each level follows the same overall investigation process:
+
+1. Play through the level and avoid obstacles.
+2. Collect clues throughout the level.
+3. Use the clues to figure out what happened.
+4. Select the suspect, location, and murder weapon.
+5. Solve all three parts of the mystery correctly to unlock the next level.
+
+This made clue collection an important part of the gameplay rather than something that was only used for scoring. The player has to pay attention to the clues because they are needed to solve each case.
 
 ## Game Levels
 
 ### Level 1 - The Investigation Begins
 
-The first level is the most similar to the original Google Dinosaur Game. The player controls the detective and has to run and jump over different household objects while moving through the level.
 
-Clues are also collected along the way, which introduces the investigation aspect of the game.
+The first level is the closest to the original Google Dinosaur Game. The player controls the detective and runs through the level while jumping over household objects and collecting clues.
 
-The main mechanics in this level include:
+The clues provide information about the first murder mystery. Once the player reaches the end, they use the clues they collected to identify the correct suspect, location, and murder weapon.
 
-- Running and jumping
-- Avoiding obstacles
-- Collision detection
-- Collecting clues
+All three answers must be correct before the player can continue to Level 2.
+<img width="1362" height="768" alt="image" src="https://github.com/user-attachments/assets/ab35ac94-7826-4c84-85a5-f34ecb635085" />
+
+<img width="1362" height="761" alt="image" src="https://github.com/user-attachments/assets/25fec1e7-4773-4884-a650-4391690fde00" />
+
 
 ### Level 2 - Train Chase
 
-For the second level, we changed the environment and incorporated ideas from Subway Surfers.
+The second level introduces a completely new murder mystery along with a different environment and gameplay style.
 
-The detective moves through a train environment and has to run across trains, jump between them, avoid gaps and obstacles, and continue collecting clues.
+This level takes inspiration from Subway Surfers. The detective moves through a train environment, running across trains, jumping between them, avoiding gaps and obstacles, and collecting clues along the way.
 
-This level was designed to make the game more challenging while also giving the player a different environment from the first level.
+At the end of the level, the player is presented with another set of suspects, locations, and weapons. They have to use the clues from this level to correctly solve the second murder before Level 3 is unlocked.
+
+<img width="1353" height="751" alt="image" src="https://github.com/user-attachments/assets/ad7a56fa-c00a-4d65-91fd-9702581c9fd7" />
+<img width="1362" height="772" alt="image" src="https://github.com/user-attachments/assets/bb262e67-4b30-43b5-9fcf-139f24aee8ae" />
+
 
 ### Level 3 - Final Pursuit
 
-The third level changes the movement mechanics again and takes inspiration from Flappy Bird.
+The third level introduces the final murder mystery and changes the gameplay mechanics again.
 
-Instead of mainly running and jumping, the player controls the detective's vertical movement to move through the level while avoiding obstacles.
+This level takes inspiration from Flappy Bird. Instead of mainly running and jumping, the player controls the detective's vertical movement while moving forward and avoiding obstacles.
 
-This gave the final level a different style of gameplay and required the player to adjust to a new type of movement.
+Clues are collected throughout the level and are used to solve the final case. At the end, the player must once again determine the correct suspect, location, and murder weapon based on the clues they found.
+
+<img width="1371" height="766" alt="image" src="https://github.com/user-attachments/assets/283bf485-0281-48bf-9c2e-a3a36ebdcd84" />
+<img width="1358" height="773" alt="image" src="https://github.com/user-attachments/assets/45460889-2a97-48ce-ade4-91e05b5c68b3" />
 
 ## Mystery and Clues
 
-One of the main changes we made to the original Dinosaur Game was adding an objective beyond surviving for as long as possible.
+<img width="1363" height="768" alt="image" src="https://github.com/user-attachments/assets/22efcffc-3f1e-49bf-a686-21482174a139" />
 
-Throughout the three levels, the player collects clues connected to the investigation. These clues are used to help solve the mystery at the end of the game.
+Each of the three levels contains its own separate murder mystery.
 
-This allowed us to connect all three levels through one storyline even though each level uses different gameplay mechanics.
+The clues collected in one level relate specifically to that level's case. Once the gameplay portion of the level is complete, the player has to interpret those clues and make three decisions: who committed the murder, where the murder took place, and which weapon was used.
+
+The mystery acts as the progression system for the game. Completing the running or obstacle section alone is not enough to move forward. The player also has to correctly solve the case.
+
+This was one of the main ways we changed the original Google Dinosaur Game. Instead of the goal being to survive for as long as possible and achieve a high score, Detective Dash gives the player a reason to collect information and use it to progress through the game.
+
+<img width="1363" height="767" alt="image" src="https://github.com/user-attachments/assets/1885cd37-8d04-4294-b001-5f7ab2e1ddb5" />
 
 ## SCAMPER Design Process
 
-We used SCAMPER to help us take the original Google Dinosaur Game and develop it into Detective Dash.
+We used SCAMPER to take the original Google Dinosaur Game and develop it into Detective Dash.
 
-**Substitute:** We replaced the dinosaur with a detective and changed the original setting.
+**Substitute:** We replaced the dinosaur with a detective and changed the original setting and obstacles.
 
-**Combine:** We combined the running and obstacle mechanics of the Dinosaur Game with clue collection and mystery solving.
+**Combine:** We combined obstacle-based gameplay with clue collection and murder-mystery solving.
 
-**Adapt:** We incorporated ideas from Google Dinosaur, Subway Surfers, and Flappy Bird across the three levels.
+**Adapt:** We adapted gameplay ideas from Google Dinosaur, Subway Surfers, and Flappy Bird to create three different levels.
 
-**Modify:** We changed the characters, obstacles, environments, objectives, and movement mechanics.
+**Modify:** We changed the characters, environments, obstacles, objectives, and movement mechanics.
 
-**Put to Another Use:** We used the basic endless-runner concept as the starting point for a detective and investigation game.
+**Put to Another Use:** We used the endless-runner concept as the starting point for an investigation game where the player's actions help them solve a mystery.
 
-**Eliminate:** Instead of focusing only on getting the highest score, we gave the player levels to complete and an overall mystery to solve.
+**Eliminate:** We moved away from endless survival and high scores by introducing individual levels and murder cases that have to be solved.
 
-**Reverse/Rearrange:** The gameplay changes between levels instead of using the same movement and obstacles throughout the entire game.
+**Reverse/Rearrange:** Instead of repeating the same gameplay throughout the game, each level changes the environment and mechanics while introducing a new case.
 
 ## Technologies Used
 
@@ -72,34 +104,22 @@ We used SCAMPER to help us take the original Google Dinosaur Game and develop it
 
 ## Main Features
 
-- Three playable levels
-- Different gameplay mechanics across levels
+- Three different murder mysteries
+- Three levels with different gameplay mechanics
+- Clue collection system
+- Suspect, location, and weapon selection
+- Mystery-solving system
+- Level progression based on correct answers
 - Player movement and jumping
 - Collision detection
 - Obstacles
-- Clue collection
-- Level progression
-- Mystery-solving objective
+- Multiple game environments
 
 ## What I Learned
 
-This project gave me more experience programming in Python and showed me how a larger game can be broken down into different components and levels.
+This project gave me experience using Python and Pygame to build a game with multiple connected systems. Along with implementing player movement, obstacles, collision detection, and level progression, we had to connect the gameplay to the clue and mystery-solving system.
 
-I worked with player movement, collision detection, obstacles, game progression, and other gameplay logic. It also gave me experience taking an existing idea and changing it through the SCAMPER design process instead of simply recreating the original game.
-
-## Gameplay
-
-### Level 1
-
-Add a screenshot or GIF of Level 1 here.
-
-### Level 2
-
-Add a screenshot or GIF of Level 2 here.
-
-### Level 3
-
-Add a screenshot or GIF of Level 3 here.
+It also gave me experience using the SCAMPER design process to take an existing game concept and turn it into something different. Rather than recreating the Google Dinosaur Game, we used it as a starting point and added new gameplay styles, three separate mysteries, clue collection, and a system where solving each case determines whether the player can progress.
 
 ## How to Run
 
